@@ -1,0 +1,43 @@
+body{
+    
+}
+img{
+    max-width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+}
+
+@media (min-width:$break-x-large){
+    .container{
+        max-width: $container-x-large;
+    }
+}
+@media (min-width:$break-large) and (max-width:$break-x-large){
+    .container{
+        max-width: $container-large;
+    }
+}
+@media (min-width:$break-medium) and (max-width:$break-large){
+    .container{
+        max-width: $container-medium;
+    }
+}
+@media (min-width:$break-small) and (max-width:$break-medium){
+    .container{
+        max-width: $container-small;
+    }
+}
+@media (min-width:$break-x-small) and (max-width:$break-small){
+    .container{
+        max-width: $container-x-small;
+    }
+}
+@media (max-width:$break-x-small){
+    .container{
+        max-width: $container-x-small;
+    }
+}
