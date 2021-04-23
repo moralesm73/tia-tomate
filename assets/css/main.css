@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 p {
@@ -178,6 +179,17 @@ p:last-child {
     font-size: 50px;
   }
 }
+.footer {
+  background-color: #686963;
+  padding: 5rem 2rem;
+}
+
+.footer__image {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
 .header {
   background-color: #FFFFFF;
   padding: 1rem 3rem;
