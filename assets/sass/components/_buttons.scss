@@ -1,0 +1,48 @@
+.call-to-action__button{
+    font-size: $large;
+    color: $granite_gray;
+    background-color: $white;
+    border:1px solid $granite_gray;
+    padding: 1rem 6rem;
+    text-transform: uppercase;
+    font-weight: $bold;
+    border-radius: 80px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.call-to-action__button-actived{
+    &:hover{
+        background-color: $pastel_pink;
+        color: $granite_gray;
+    }
+    &:active{
+        border:3px solid $granite_gray;
+        background-color: $pastel_pink;
+        color: $granite_gray;
+    }
+    &:focus{
+        border:3px solid $granite_gray;
+        background-color: $pastel_pink;
+        color: $granite_gray;
+    }
+}
+
+@media (min-width:$break-medium) and (max-width:$break-large){
+    .call-to-action__button{
+        font-size: $medium;
+    }
+}
+@media (min-width:$break-small) and (max-width:$break-medium){
+    .call-to-action__button{
+        font-size: $medium;
+        padding: 1rem 3rem;
+    }
+}
+@media (max-width:$break-small){
+    .call-to-action__button{
+        font-size: $medium;
+        padding: 1rem 2rem;
+    }
+}

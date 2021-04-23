@@ -1,0 +1,44 @@
+.member{
+    margin-bottom: 5rem;
+}
+.subtitle{
+    background-color: $jelly_bean;
+    padding: 6rem 3rem;
+    margin-bottom: 5rem;
+}
+.subtitle__text{
+    color: $white;
+    text-transform: uppercase;
+    font-size: $xx-large;
+    text-align: center;
+}
+
+.member__image{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+
+.member__title{
+    color: $granite_gray;
+    font-size: $large;
+    font-weight: $bold;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.member__text{
+    color: $granite_gray;
+    font-size: $medium;
+}
+
+@media (min-width:$break-small) and (max-width:$break-medium){
+    .subtitle__text{
+        font-size: $x-large;
+    }
+}
+@media (max-width:$break-small){
+    .subtitle__text{
+        font-size: $large;
+    }
+}

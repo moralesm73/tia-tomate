@@ -1,0 +1,32 @@
+.about-us__quality{
+    background-color: $taupe_gray;
+    padding: 5rem 0;
+}
+
+.about-us__origin{
+    background-color: $white;
+    padding: 5rem 0;
+}
+
+.about-us__title{
+    font-weight: $bold;
+    font-size: $large;
+    text-align: center;
+    padding: 2rem 0;
+    &-primary{
+        color: $white;
+    }
+    &-secondary{
+        color: $granite_gray;
+    }
+}
+
+.about-us__text{
+    font-size: $medium;
+    &-primary{
+        color: $white;
+    }
+    &-secondary{
+        color: $granite_gray;
+    }
+}

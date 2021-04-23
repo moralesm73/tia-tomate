@@ -7,6 +7,22 @@ h1,h2,h3,h4,h5,h6{
 
 p{
     font-family: $raleway;
-    line-height: 1.1;
+    line-height: 1.5;
     font-weight: $regular;
+    margin: 0 auto 1.5rem;
+    width:70%;
+    &:last-child{
+        margin: 0 auto;
+    }
+}
+
+@media (min-width:$break-x-small) and (max-width:$break-medium){
+    p{
+        width:85%;
+    }
+}
+@media (max-width:$break-x-small){
+    p{
+        width:100%;
+    }
 }
